@@ -138,3 +138,9 @@ body {
 .twitter {
   background-color: #1da1f2;
 }
+
+.footer{
+    position: fixed;
+    bottom: 10px;
+    font-size: 17px;
+}
