@@ -82,6 +82,13 @@ body {
   margin-bottom: 1rem;
 }
 
+.footer{
+    position: fixed;
+    bottom: 25px;
+    font-size: 17px;
+    color: #eee;
+}
+
 /*=============== SOCIAL LINKS ===============*/
 .social-links ul {
   list-style: none;
@@ -137,11 +144,4 @@ body {
 }
 .twitter {
   background-color: #1da1f2;
-}
-
-.footer{
-    position: fixed;
-    bottom: 25px;
-    font-size: 17px;
-    color: #eee;
 }
