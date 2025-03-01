@@ -92,6 +92,7 @@ body {
 /*=============== SOCIAL LINKS ===============*/
 .social-links ul {
   list-style: none;
+  padding: 0;
 }
 
 .social-links ul li {
