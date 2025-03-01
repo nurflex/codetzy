@@ -48,21 +48,19 @@ body {
 body {
   scrollbar-width: thin;
   scrollbar-color: #888 #444;
-  margin: 0 auto;
   line-height: 1.5;
 }
 
 .container {
   width: 90%;
   max-width: 30rem;
-  margin-top: 2rem;
   position: relative;
 }
 
 /*=============== HEADAR ===============*/
 .head-section {
   text-align: center;
-  margin-bottom: 2rem;
+  margin: 2rem;
   color: #ffffff;
 }
 
@@ -123,11 +121,6 @@ body {
   flex: 1;
   font-size: 0.9rem;
 }
-.container {--bs-gutter-x:1.5rem;--bs-gutter-y:1.5rem;width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-y) * .5);margin-right:auto;margin-left:auto}
-@media screen and (min-width:576px){.container{max-width:540px}}
-@media screen and (min-width:768px){.container{max-width:720px}}
-@media screen and (min-width:992px){.container{max-width:960px}}
-@media screen and (min-width:1200px){.container{max-width:1140px}}
 
 /* background colors */
 .website {
