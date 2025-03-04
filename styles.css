@@ -3,7 +3,7 @@
 :root {
     --bgColor: #000;
     --accentColor: #E6E6E6;
-    --font: "Nunito", sans-serif;
+    --font: 'Nunito', 'sans-serif';
 }
 
 body{
