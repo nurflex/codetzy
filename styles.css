@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: var(--bgColor);
+    background-color: #0d1117;
     font-family: var(--font);
 }
 
@@ -40,21 +40,21 @@ body{
 .link{
     border-radius: 0.5rem;
     display: block;
-    background-color: var(--accentColor);
-    color: var(--bgColor);
+    background-color: #21262d;
+    color: white;
     font-family: var(--font);
     text-align: center;
     margin-bottom: 20px;
     padding: 17px;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 18px;
     transition: all .25s cubic-bezier(.08,.59,.29,.99);
-    border: solid var(--accentColor) 2px;
+    border: solid #21262d 2px;
 }
 
 .link:hover{
-    background-color: #222;
-    color: var(--accentColor);
+    background-color: #30363d;
+    color: white;
 }
 
 h1 {
