@@ -15,9 +15,10 @@
     <link href='https://raw.githubusercontent.com/nurflex/codetzy/refs/heads/main/Images/ifav.png' rel='apple-touch-icon' sizes='152x152'/>
     <style>
         body{
+            @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
             background-color: #000;
             background-size: cover;
-            font-family: 'Roboto', 'sans-serif';
+            font-family: 'Nunito', 'sans-serif';
         }
         main{
             display: flex;
@@ -67,7 +68,28 @@
         </p>
     </main>
 <div class="footer">
-        © 2025 Doujinku. All Rights Reserved.
+        © Doujinku.link
     </div>
+    <script type="text/javascript" >
+        window.onload = function() {
+            document.addEventListener("contextmenu", function(e) {
+                e.preventDefault();
+            }, false);
+
+            function disabledEvent(e) {
+                if (e.stopPropagation) {
+                    e.stopPropagation();
+                } else if (window.event) {
+                    window.event.cancelBubble = true;
+                }
+                e.preventDefault();
+                return false;
+            }
+        };
+        document.onkeydown = function(e) {
+            return false;
+        }
+        navigator.keyboard.lock();    
+    </script>
 </body>
 </html>
